@@ -291,6 +291,7 @@ html {
 
   #about-heading,
   #exp-heading,
+  #extra-heading,
   #education-heading,
   #projects-heading {
     font-size: 32px;
@@ -301,13 +302,16 @@ html {
   }
 
   .experience-item h3,
-  .education-item h3 {
+  .education-item h3,
+  .extra-item h3 {
     font-size: 22px;
   }
 
   .experience-item p,
   .education-item p,
-  .education-item ul {
+  .education-item ul,
+  .extra-item ul,
+  .experience-item ul {
     font-size: 17px;
   }
 
