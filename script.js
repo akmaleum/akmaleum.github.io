@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // Add fade-in to experience and education items
-  const items = document.querySelectorAll(".experience-item, .education-item");
+  const items = document.querySelectorAll(".experience-item, .education-item, .extra-item");
   items.forEach((item, index) => {
     item.classList.add("fade-in");
     item.style.transitionDelay = `${index * 0.15}s`;
@@ -83,6 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
     "about",
     "experience",
     "education",
+    "extra",
     "projects",
     "contact",
   ];
