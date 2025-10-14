@@ -60,6 +60,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="#about">About</a>
               </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li> -->
               <li class="nav-item">
                 <a class="nav-link" href="#experience">Experience</a>
               </li>
@@ -90,20 +93,74 @@
       aria-labelledby="about-heading"
     >
       <div class="container">
-        <h2 id="about-heading">About Me</h2>
-        <p>
-          I'm <strong>Akmal Hisyam</strong>, a detail-oriented fresh IT graduate
-          from Universiti Utara Malaysia with a passion for full-stack
-          development and user- centric digital solutions. Proficient in
-          Flutter, Django and React for building scalable mobile and web
-          applications, with hands-on experience improving app performance by up
-          to 40%. Excel in project management, team leadership, and agile
-          collaboration, honed through internships and extracurricular roles.
-          Eager to contribute analytical problem-solving and creative thinking
-          to innovative tech teams.
-        </p>
-        <br />
-        <h3>Skills</h3>
+        <div class="row align-items-center">
+          <!-- Left Column - Big Greeting -->
+          <div class="col-lg-4">
+            <h2
+              id="about-heading"
+              class="greeting-text"
+              style="font-weight: 350; font-size: 35px", 
+            >
+              Hello, I'm
+            </h2>
+            <h2
+              id="about-heading"
+              class="greeting-text"
+              style="color: rgb(0, 105, 186)"
+            >
+              Akmal Hisyam
+            </h2>
+          </div>
+
+          <!-- Right Column - Description -->
+          <div class="col-lg-8">
+            <div class="about-content">
+              <p>
+                I'm a junior software developer passionate about building clean,
+                accessible, and user-centered digital experiences. I love
+                crafting interfaces that are both visually polished and
+                technically robust — blending thoughtful design with solid
+                engineering principles.
+              </p>
+              <p>
+                Recently, I've worked with
+                <a
+                  class="plain-link"
+                  href="https://www.edumi.my/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><strong>EDUMi Sdn Bhd</strong></a
+                >, and built a mobile app with Flutter and Dart to help track
+                student activities and progress, and a web-based digital library
+                for managing academic resources using PHP and MySQL.
+              </p>
+              <p>
+                I'm currently <strong>seeking new opportunities</strong> where I
+                can contribute to impactful projects, collaborate with talented
+                teams, and continue growing as a developer, especially in roles
+                that value creativity, accessibility, and thoughtful user
+                experience.
+              </p>
+              <p>
+                When I’m not coding, you’ll likely find me exploring new tech
+                trends, tweaking UI layouts for fun, or enjoying a good frisbee
+                throwing session or a Valorant session to unwind.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section: now separate and full-width -->
+    <section
+      id="skills"
+      class="section skills"
+      role="region"
+      aria-labelledby="skills-heading"
+    >
+      <div class="container">
+        <h2 id="skills-heading">Skills</h2>
         <p>
           <strong>Programming Languages:</strong> HTML5, CSS3, JavaScript
           (ES2015+), Java, PHP, Dart, Python, SQL
@@ -314,9 +371,7 @@
             <div class="card h-100">
               <div class="card-body">
                 <div>
-                  <h3 class="card-title">
-                    Personal Portfolio Website
-                  </h3>
+                  <h3 class="card-title">Personal Portfolio Website</h3>
                   <p class="card-text">
                     Created a responsive personal portfolio website using HTML,
                     CSS, and JavaScript to showcase projects and skills.
@@ -478,7 +533,7 @@
     <footer class="site-footer">
       <p>
         Loosely designed in <strong>my head</strong> and coded in
-        <strong>VS Code</strong> by yours truly. <br />Built with
+        <strong>VS Code</strong> by yours truly. Built with
         <strong>HTML</strong>, <strong>CSS</strong>,
         <strong>JavaScript</strong> and deployed with
         <strong>GitHub Pages</strong>. <br />All text is set to the
