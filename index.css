@@ -49,6 +49,7 @@ h3 {
   font-weight: 600;
   font-size: 15px;
   margin-right: 20px;
+  margin-top: -30px;
 }
 .site-header .nav-link:hover,
 .site-header .nav-link:focus {
@@ -58,11 +59,11 @@ h3 {
 
 /* logo styling — simplified so it stays top-left and doesn't shift */
 .logo {
-  width: 70px;
+  width: 80px;
   height: auto;
   border-radius: 4px;
   margin: 0;
-  display: inline-block;
+  display: block;
 }
 
 /* small adjustment so toggler doesn't overlap brand on very narrow screens */
